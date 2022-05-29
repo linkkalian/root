@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod By DarkCrow
+# Mod By AkhirZaman
 wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/linkkalian/root/main/sshd_config;
 systemctl restart sshd;
 clear;
